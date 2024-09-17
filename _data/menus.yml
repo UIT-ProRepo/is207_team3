@@ -1,16 +1,19 @@
-- title: home
+- title: Trang chủ
   url: /
   external: false
 
-- title: archive
-  url: /archive/
+- title: Bài viết
+  url: /bai-viet/
   external: false
 
-- title: about
-  url: /about/
-  external: false # set true if you using external link, see below
+- title: Nhãn
+  url: /nhan/
+  external: false
 
-# Example:
-# - title: github
-#   url: https://github.com/piharpi/jekyll-klise
-#   external: true
+- title: Giới thiệu
+  url: /gioi-thieu/
+  external: false
+
+- title: GitHub
+  url: https://github.com/Nhat-Original/is207_team3
+  external: true

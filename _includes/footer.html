@@ -1,7 +1,9 @@
 <footer class="footer">
+  <!-- DEFAULT - FOOTER LINKS 
   <a class="footer_item" href="/thanks">ack.</a>
   <a class="footer_item" href="javascript::void(0)">resume</a>
-  <a class="footer_item" href="/feed.xml">rss</a>
+  <a class="footer_item" href="/feed.xml">rss</a> 
+  -->
   <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
   <small class="footer_copyright">
     <!-- Klisé Theme: https://github.com/piharpi/jekyll-klise -->
@@ -34,7 +36,7 @@
     gtag("config", "{{ site.google_analytics }}");
   </script>
 {%- endif -%}
-{%- if page.url == '/archive/' -%}
+{%- if page.url == '/bai-viet/' -%}
   <script src="/assets/js/search.min.js"></script>
   <script>
     var sjs = SimpleJekyllSearch({
