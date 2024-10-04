@@ -85,3 +85,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+
+# Exclude all PDF files from sitemap generation
+sitemap:
+  exclude:
+    - "*.pdf"
